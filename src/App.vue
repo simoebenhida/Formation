@@ -69,12 +69,7 @@
     name: 'app',
     data() {
       return {
-        join: true
-      }
-    },
-    methods: {
-      JoinNow() {
-        this.join = true
+        join: false
       }
     }
   }
