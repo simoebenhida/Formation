@@ -37,7 +37,7 @@
       </div>
     </div>
     <div v-show="join" class="h-screen flex justify-center items-center">
-      <div class="min-w-md rounded shadow-lg bg-white p-8">
+      <div class="min-w-xs md:min-w-md rounded shadow-lg bg-white p-8">
         <!-- Begin MailChimp Signup Form -->
         <div class="font-thin text-orange-dark text-lg border-b border-orange-dark py-3">
           Join Us Now
