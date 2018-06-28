@@ -14,8 +14,9 @@
               <a href="https://www.google.com/maps/place/%D8%AF%D8%A7%D8%B1+%D8%A7%D9%84%D8%B4%D8%A8%D8%A7%D8%A8%D8%8C+Marrakech+40000%E2%80%AD/@31.6166115,-7.9762698,17z/data=!4m5!3m4!1s0xdafee31cf0be1af:0x66f0a5f45a375c36!8m2!3d31.6154008!4d-7.9710361"
                 target="__blank" class="text-sm text-white underline">(google map)</a>
             </p>
+
             <div class="flex flex-between justify-center items-center mt-8">
-              <img class="rounded-full " src="https://pbs.twimg.com/profile_images/1009573793042501633/HCmQ27Ix_bigger.jpg" alt="">
+              <img class="rounded-full h-18" src="./assets/photo.jpg" alt="">
               <p class="flex flex-col flex-start leading-normal px-2">
                 <span class="font-medium text-base text-white">Mohamed Benhida</span>
                 <span class="font-thin text-sm text-white">Laravel Developer</span>
@@ -24,11 +25,14 @@
           </div>
         </div>
       </div>
-      <div class="bg-black min-h-xs -mt-8">
-        <div class="min-h-xs flex justify-center items-center">
+      <div class="bg-black min-h-xs -mt-8 py-6">
+        <div class="mt-10 py-8 flex justify-center items-center">
           <button @click="join = true" class="bg-orange-dark text-white py-3 px-6 text-3xl font-hairline rounded shadow hover:bg-orange-light flex items-center">
             Join Us Now
           </button>
+        </div>
+        <div class="flex justify-center">
+           <img class="min-h-xs" src="https://maps.googleapis.com/maps/api/staticmap?center=31.6153345,-7.9711482&markers=color:red%7Clabel:%7C31.6153345,-7.9711482&zoom=16&size=600x400">
         </div>
       </div>
 
@@ -42,9 +46,9 @@
         <div class="font-thin text-orange-dark text-lg border-b border-orange-dark py-3">
           Join Us Now
         </div>
-        <div class="flex justify-start py-8" id="mc_embed_signup">
+        <div class="flex justify-center w-full md:justify-start py-8" id="mc_embed_signup">
           <form action="https://devma.us18.list-manage.com/subscribe/post?u=cfda1e0238a187ff527bdb5a5&amp;id=e718a7d58c" method="post"
-            id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate w-full" target="_blank" novalidate>
             <div id="mc_embed_signup_scroll">
 
               <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
